@@ -32,7 +32,7 @@ Between the Mega and Uno: Connect the Mega TX1 pin to the Uno TX pin. Connect th
 <h2>For Basic Demonstration</h2>
 
 Plug both devices into a different USB port on your computer. Load the following sketch into the Uno:
-
+```
 void setup()
 {
   // As a Serial-to-USB converter,
@@ -42,7 +42,7 @@ void setup()
 void loop()
 {
 }
-
+```
 Load the following sketch into the Mega:
 ```
 void setup()
