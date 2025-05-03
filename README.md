@@ -72,7 +72,25 @@ On Uno's monitor, you should see:
 
 ![image](https://github.com/user-attachments/assets/e4929157-a7b2-47c1-94ff-3783d5d70b74)
 
+<h2>Use in Debugging</h2>
 
+A more advanced use of this idea is to help debug a process that sends/receives data between devices. In this demonstration, an Arduino MKR WAN 1310 instigates a data exchange with an Arduino Mega 2526. What is going on within the Mega is monitored by the Uno. A programmable USB hub facilitates the exchange as a way of showing how to send/receive data between devices that support interactive USB data flows but cannot be directly connected. In this case, the hub was a Windows 11 computer but the hub has also been shown to run on a Linux headless computer (Raspberry Pi v4). USB v2 or v3 work just as well.
+
+The same connections between the Mega and Uno are employed. The same code runs on the Uno. All the devices plug into different USB ports on your computer. Here is a list of the appropriate codes:
+
+  * ArduinoMKR_Instigator
+  * ArduinoMega_Respondent
+  * USB_HUB
+
+Once all microcontrollers are ready, start USB_HUB.
+
+On your Python display, you should see:
+< picture >
+
+On your Uno display, you should see:
+< picture >
+
+If you have comments or difficulties, please open an issue. Am always glad to receive those and will respond.
 
 # License
 GNU Affero General Public License v3.0
