@@ -13,7 +13,7 @@ Found out about this innovative idea from these three videos:
 
 You can watch those videos to get different perspectives. This posting is an effort to present an entire project that applies the innovation to an actual debugging problem.
 
-Equipment required for basic demonstration:
+<h2>Equipment required for basic demonstration:<\h2>
 
   * 1 Arduino Uno R3
   * 1 Arduino Mega 2560
