@@ -65,9 +65,11 @@ void loop()
 Open the Serial Monitor for both microcontrollers.
 
 On Mega's monitor, you should see:
+
 ![image](https://github.com/user-attachments/assets/1df7d3f0-a040-4ab9-8463-6f88bcb50896)
 
 On Uno's monitor, you should see:
+
 ![image](https://github.com/user-attachments/assets/e4929157-a7b2-47c1-94ff-3783d5d70b74)
 
 
