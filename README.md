@@ -29,6 +29,47 @@ You can watch those videos to get different perspectives. This posting is an eff
 On the Arduino Uno R3: Connect the GND pin to the RESET pin.
 Between the Mega and Uno: Connect the Mega TX1 pin to the Uno TX pin. Connect the Mega RX1 pin to the Uno RX pin.
 
+<h2>For Basic Demonstration</h2>
+
+Plug both devices into a different USB port on your computer. Load the following sketch into the Uno:
+
+void setup()
+{
+  // As a Serial-to-USB converter,
+  // the microcontroller board just contains a blank sketch.
+}
+
+void loop()
+{
+}
+
+Load the following sketch into the Mega:
+```
+void setup()
+{
+  Serial.begin(9600); while(! Serial) delay(100);
+  Serial1.begin(9600); while(! Serial1) delay(100);
+  Serial.println("Setup Completed"); Serial.flush();
+  Serial1.print("Setup Completed\n"); Serial1.flush();
+}
+
+void loop()
+{
+  static uint8_t counter = 0;
+  Serial.println(counter);
+  Serial1.print("New Number: "); Serial1.println(counter++); Serial1.flush();
+  Serial1.flush();
+  delay(1000);
+}
+```
+Open the Serial Monitor for both microcontrollers.
+
+On Mega's monitor, you should see:
+< picture >
+
+On Uno's monitor, you should see:
+< picture >
+
 
 # License
 GNU Affero General Public License v3.0
