@@ -5,7 +5,7 @@ An alternative is to use an Arduino Uno R3 for monitoring the device in question
 
 Found out about this innovative idea from these three videos:
 
-  * (https://www.youtube.com/watch?v=4cYJjqx-iUo)
+  * https://www.youtube.com/watch?v=4cYJjqx-iUo
 
   * https://www.youtube.com/watch?v=qOztsbEfg1g
 
@@ -15,14 +15,14 @@ You can watch those videos to get different perspectives. This posting is an eff
 
 Equipment required for basic demonstration:
 
-1 Arduino Uno R3
-1 Arduino Mega 2560
-3 Jumper Wires
+  * 1 Arduino Uno R3
+  * 1 Arduino Mega 2560
+  * 3 Jumper Wires
 
 Additional equipment required for advanced demonstration:
 
-1 other Arduino microcontroller board (other board types may also be useful)
-This project used an Arduino MKR WAN 1310 due to the eventual need for LoRa broadcasting.
+*  1 other Arduino microcontroller board (other board types may also be useful)
+   This project used an Arduino MKR WAN 1310 due to the eventual need for LoRa broadcasting.
 
 For Both Demonstrations
 
