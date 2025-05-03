@@ -82,13 +82,17 @@ The same connections between the Mega and Uno are employed. The same code runs o
   * ArduinoMega_Respondent
   * USB_HUB
 
-Once all microcontrollers are ready, start USB_HUB.
+Once all microcontrollers are ready, turn off the serial monitors for the MKR and Mega. Then start USB_HUB.
 
 On your Python display, you should see:
-< picture >
+
+![image](https://github.com/user-attachments/assets/94f0563b-5131-40f7-aa3d-3397f001980d)
+
 
 On your Uno display, you should see:
-< picture >
+
+![image](https://github.com/user-attachments/assets/cd53bd35-761a-477b-823e-74d9203fe1d5)
+
 
 If you have comments or difficulties, please open an issue. Am always glad to receive those and will respond.
 
