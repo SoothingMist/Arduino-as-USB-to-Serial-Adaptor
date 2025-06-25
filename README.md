@@ -24,12 +24,7 @@ You can watch those videos to get different perspectives. This posting is an eff
 *  1 other Arduino microcontroller board (other board types may also be useful)
    This project used an Arduino MKR WAN 1310 due to the eventual need for LoRa broadcasting.
 
-<h2>For Both Demonstrations</h2>
-
-On the Arduino Uno R3: Connect the GND pin to the RESET pin.
-Between the Mega and Uno: Connect the Mega TX1 pin to the Uno TX pin. Connect the Mega RX1 pin to the Uno RX pin.
-
-<h2>For Basic Demonstration</h2>
+<h2>Basic Demonstration</h2>
 
 Plug both devices into a different USB port on your computer. Load the following sketch into the Uno:
 ```
@@ -62,13 +57,17 @@ void loop()
   delay(1000);
 }
 ```
+
+On the Arduino Uno R3: Connect the GND pin to the RESET pin.
+Between the Mega and Uno: Connect the Mega TX1 pin to the Uno TX pin. Connect the Mega RX1 pin to the Uno RX pin.
+
 Open the Serial Monitor for both microcontrollers.
 
-On Mega's monitor, you should see:
+On Mega's monitor, you should see something like:
 
 ![image](https://github.com/user-attachments/assets/1df7d3f0-a040-4ab9-8463-6f88bcb50896)
 
-On Uno's monitor, you should see:
+On Uno's monitor, you should see something like:
 
 ![image](https://github.com/user-attachments/assets/e4929157-a7b2-47c1-94ff-3783d5d70b74)
 
@@ -76,7 +75,7 @@ On Uno's monitor, you should see:
 
 A more advanced use of this idea is to help debug a process that sends/receives data between devices. In this demonstration, an Arduino MKR WAN 1310 instigates a data exchange with an Arduino Mega 2526. What is going on within the Mega is monitored by the Uno. A programmable USB hub facilitates the exchange as a way of showing how to send/receive data between devices that support interactive USB data flows but cannot be directly connected. In this case, the hub was a Windows 11 computer but the hub has also been shown to run on a Linux headless computer (Raspberry Pi v4). USB v2 or v3 work just as well.
 
-The same connections between the Mega and Uno are employed. The same code runs on the Uno. All the devices plug into different USB ports on your computer. Here is a list of the appropriate codes:
+The same connections between the Mega and Uno are employed but those have to be removed so that new code can be loaded. The same code runs on the Uno. All the devices plug into different USB ports on your computer. Here is a list of the appropriate codes:
 
   * ArduinoMKR_Instigator
   * ArduinoMega_Respondent
