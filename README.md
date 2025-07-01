@@ -26,7 +26,7 @@ You can watch those videos to get different perspectives. This posting is an eff
 
 <h2>Basic Demonstration</h2>
 
-Before you do any wiring, plug both devices into a different USB port on your computer.
+Before you do any wiring, plug each of the two devices into different USB ports on your computer.
 
 Load the following sketch into the Uno:
 ```
