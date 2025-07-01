@@ -73,7 +73,7 @@ On Uno's monitor, you should see something like:
 
 ![image](https://github.com/user-attachments/assets/e4929157-a7b2-47c1-94ff-3783d5d70b74)
 
-<h2>Use with Alternative Devices<\h2>
+<h2>Use with Alternative Devices</h2>
 
 Found that the Mega can be replaced by an Arduino MKR WAN 1310.
 On the MKR, use TX and RX instead of TX1 and RX1.
