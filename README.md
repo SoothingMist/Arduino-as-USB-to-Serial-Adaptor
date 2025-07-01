@@ -73,6 +73,12 @@ On Uno's monitor, you should see something like:
 
 ![image](https://github.com/user-attachments/assets/e4929157-a7b2-47c1-94ff-3783d5d70b74)
 
+<h2>Use with Alternative Devices<\h2>
+
+Found that the Mega can be replaced by an Arduino MKR WAN 1310.
+On the MKR, use TX and RX instead of TX1 and RX1.
+Everything else is the same.
+
 <h2>Use in Debugging</h2>
 
 A more advanced use of this idea is to help debug a process that sends/receives data between devices. In this demonstration, an Arduino MKR WAN 1310 instigates a data exchange with an Arduino Mega 2526. What is going on within the Mega is monitored by the Uno. A programmable USB hub facilitates the exchange as a way of showing how to send/receive data between devices that support interactive USB data flows but cannot be directly connected. In this case, the hub was a Windows 11 computer but the hub has also been shown to run on a Linux headless computer (Raspberry Pi v4). USB v2 or v3 work just as well.
