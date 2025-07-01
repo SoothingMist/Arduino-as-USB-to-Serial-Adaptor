@@ -26,7 +26,9 @@ You can watch those videos to get different perspectives. This posting is an eff
 
 <h2>Basic Demonstration</h2>
 
-Plug both devices into a different USB port on your computer. Load the following sketch into the Uno:
+Before you do any wiring, plug both devices into a different USB port on your computer.
+
+Load the following sketch into the Uno:
 ```
 void setup()
 {
